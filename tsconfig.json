@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",       // Définit la version de JavaScript cible
+    "module": "commonjs",     // Utilisation du système de modules CommonJS
+    "strict": true,           // Active le mode strict pour une meilleure sécurité du code
+    "outDir": "./dist",       // Dossier où seront placés les fichiers compilés
+    "rootDir": "./src",       // Dossier contenant vos fichiers sources TypeScript
+    "esModuleInterop": true   // Assure la compatibilité avec les modules ES
+  },
+  "include": ["src/**/*.ts"],   // Inclut tous les fichiers .ts dans le dossier src
+  "exclude": ["node_modules"]   // Exclut le dossier node_modules
+}
